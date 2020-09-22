@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css"
+  
+  
+</head>
+
+<body>
+  <header>
+    <img src="pictures/Download.jfif" alt="logo">
+    <h1>Kontakt</h1>
+
+    <hr>
+    <div class="topnav" id="myTopnav">
+      <a href="#kontakt.html" class="active">Kontakt</a>
+      <a href="info.html">Infoseite</a>
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+    
+    <h2>Wir freuen uns von Ihnen zu lesen - Anregungen, Wünsche und Beschwerden</h2>
+
+    <form method="get" action="ausgabe.html">
+        <fieldset>
+          <legend>Helfen Sie uns, uns zu verbessern</legend>
+  
+      <div>
+        <label for="name">Vor- und Familienname</label>
+        <input type="text" name="name" id"name">
+      </div>
+      <div>
+        <label for="emailadresse">Emailadresse</label>
+        <input type="email" name="mailadresse" id"Emailadresse">
+      </div>
+      <div>
+        <label for="date">Besuchstag</label>
+        <input type="date" name="date" id"date">
+      </div>
+      <div>
+        <label for="time">Uhrzeit</label>
+        <input type="time" name="time" id"time">
+      </div>
+      <div class="slidecontainer">
+        <p> Wie hat ihnen der Besuch bei uns gefallen?<br>
+          1 sehr gut  bis 5 sehr schlecht
+        </p>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
+      <div>
+        <br>
+        <p> Empfehlen Sie uns weiter?</p>
+        <input type="radio" name=ja" id="ja" value="ja">
+        <label for="ja">Ja</label>
+        <input type="radio" name=ja" id="nein" value="nein">
+        <label for="nein">Nein</label>
+      </div>
+      <div>
+        <br>
+        <br>
+        <label for="lieblingstierart">Lieblingstierart</label>
+        <select name="lieblingstierart" id="lieblingstierart">
+          <option value="1">Säugetiere</option>
+          <option value="2">Vögel</option>
+          <option value="3">Fische</option>
+          <option value="4">Reptilien</option>
+        </select>
+      </div>
+      <br>
+      <label for="kommentar">Kommentar</label>
+      <textarea rows="5 cols="20" name="kommentar"
+      id="kommentar"></textarea>
+      <br>
+      <br>
+      <label for="besucherinfo">Besucherinfo</label>
+      <select name="besucherinfo" id="besucherinfo">
+        <option value="1">Familienausflug</option>
+        <option value="2">Allein unterwegs</option>
+        <option value="3">Gruppenausflug</option>
+        <option value="2">Ausflug mit Freunden</option>
+        <option value="3">was anderes</option>
+      </select>
+    </div>
+    <br>
+    <br>
+    <input type="submit" value="Infos absenden">
+    <input type="reset" value="Eingaben löschen">
+
+      </form>
+    </form>
+  </fieldset>
+    <p> Zoo Schönbrunn<br>
+        Schönbrunner Straße 5<br>
+        5555 Musterstadt<br>
+        07675 / 222233<br>
+        
+    
+    <a href="mailto: Manuela Spiegelfeld">m.spiegelfeld@hotmail.com</a>
+    
+</header>
+    </main>
+
+  <footer>
+  
+    <p>© 2020 by ARTbySpiegelfeld</p>
+  </footer>
+</body>
+</html>
